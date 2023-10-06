@@ -1,0 +1,32 @@
+@charset "utf-8";
+table,th{
+    color: #000000;
+    background : #fdfcfc;
+}
+table th {
+    padding: 10px;
+  }
+  
+table td {
+   padding: 3px 10px;
+}
+td{
+    height: 130px;
+    width: 400px;
+}
+th,td {
+    border: solid 1px;
+    padding: 30px;
+}
+
+table {
+    border-collapse:  collapse;
+}
+img{
+    width: 100%;
+    width: 400px;
+    height: 300px;
+}
+caption, th, td{
+    font-size:200%; 
+}
