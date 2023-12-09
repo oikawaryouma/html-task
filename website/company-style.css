@@ -1,0 +1,126 @@
+@charset "UTF-8";
+main{
+  background-color: white;
+}
+main {
+    text-align: center;
+}
+h2{
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0.5rem;
+}
+main ul li {
+    width: 50%;
+    text-align: center;
+    color: blue ;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.image{
+    display: inline-block
+  }
+.image img{
+    width: 150%;
+    text-align: center;
+    display: block;
+}
+a.image:hover img{
+    opacity: 0.5;
+}
+main li a {
+    font-size: 150%;
+}
+main ul li a:hover{
+    color: green;
+    text-decoration: none;
+}
+.flex {
+    display: flex; 
+  }
+  .flex img  {
+    text-align: left;
+    width: 1300px;
+    height: 600px  ; 
+    margin: 0;
+    padding: 0;
+  }
+  .flex .image img {
+    width: 100%;
+    height: auto;
+  }
+  .flex .right {
+    margin: 0 0 0 20px;
+    padding: 0;
+  }
+  .flex {
+    display: flex;
+  }
+  .flex .image {
+    width: 640px;
+    margin: 0;
+    padding: 0;
+  }
+  .flex .image img {
+    width: 100%;
+    height: auto;
+  }
+  .flex .right {
+    margin: 0 0 0 20px;
+    padding: 0;
+  }
+
+  .flex .text {
+    margin: 10px 0 0;
+    padding: 0;
+  }
+  .flex .text {
+    margin: 10px 0 0;
+    padding: 0;
+  }
+   table th,
+   table td{
+    padding: 5px 10px;
+    text-align: left;
+    border-collapse: collapse;
+    border: 2px solid #333;
+  }
+   table th{
+    border:1px solid #000066;
+    background:royalblue;
+  }
+    table td{
+      background-color: honeydew;
+    border:1px solid #000066;
+  }
+  table{
+    border-collapse: collapse;
+    margin:auto;
+    border-spacing: 1.4px;
+    table-layout: fixed;
+  }
+  table td {
+    padding: 10px;
+    font-size: 16px;
+    letter-spacing: 1.2px;
+    line-height: 1.6;
+  }
+  .enter p {
+    text-align: left;
+    font-size: 120%;
+    margin: auto;
+    letter-spacing: 1.4px;
+  }
+  .enter{
+    background-color: aliceblue;
+  }
+  h2{
+    background-color: aquamarine;
+  }

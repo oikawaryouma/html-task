@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+.mark-list {
+    list-style: "★";
+    font-size: 16px;
+    letter-spacing: 1.2px;
+    line-height: 1.6;
+    background-color: azure;
+}
