@@ -14,8 +14,8 @@
     <fieldset>
      <legend>お客様情報</legend>
     <form action="#" method="post">
-     姓:<input type="text" name="last name"><br>
-     名:<input type="text" name="first name"><br>
+     姓:<input type="text" name="last_name"><br>
+     名:<input type="text" name="first_name"><br>
      住所:<input type="text" name="address"><br>
      メールアドレス:<input type="email" name="email"><br>
      電話番号:<input type="tel" name="tel"><br>
@@ -36,10 +36,10 @@
 
      <fieldset>
          <legend>希望メールマガジン</legend>
-         <input type="checkbox" name="magazine" value="1">IT
-         <input type="checkbox" name="magazine" value="2">営業
-         <input type="checkbox" name="magazine" value="3">接客
-         <input type="checkbox" name="magazine" value="1">医療<br>
+         <input type="radio" name="magazine" value="1">IT
+         <input type="radio" name="magazine" value="2">営業
+         <input type="radio" name="magazine" value="3">接客
+         <input type="radio" name="magazine" value="4">医療<br>
      </fieldset>
 
      <fieldset>
@@ -47,7 +47,7 @@
          <a href="terms.html">会員規約を確認する</a><br>
          <input type="checkbox" name="terms" value="agree">規約に同意する。<br>
      </fieldset>
-     <button type="submit">送信</button>
+     <button type="submit">確認</button>
      <button type="reset">リセット</button>
      </body>
 </html>
