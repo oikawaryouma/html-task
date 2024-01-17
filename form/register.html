@@ -18,14 +18,14 @@
     <label><input type="checkbox">パスワードを表示する </td></label>
 </tr>
 <tr>
-    <th class="text">氏名</th><td>性：<input type="text" placeholder="例：　盛岡">
-    名：<input type="text" placeholder="例：太郎"></td>
+    <th class="text">氏名</th><td>性：<input type="text" name="last_name" placeholder="例：　盛岡">
+    名：<input type="text" name="name" placeholder="例：太郎"></td>
 </tr>
 <tr>
-    <th>住所</th><td>〒<input type="text" name="disabled" size="8" placeholder="021-0022" disabled><br>
+    <th>住所</th><td>〒<input type="text" name="post_code" size="8" placeholder="021-0022" disabled><br>
     <input type="text" name="disabled" placeholder="岩手県盛岡市中央道" disabled><br>
-<input type="text" name="disabled" placeholder="番地"><br>
-<input type="text" name="disabled" size="30" placeholder="建物名"></td>
+<input type="text" name="street address" placeholder="番地"><br>
+<input type="text" name="Building name" size="30" placeholder="建物名"></td>
 </tr>
 <tr>
     <th class="text">携帯電話番号<p>ハイフンなし</p></th><td><input type="tel" name="number"></td>
@@ -34,7 +34,7 @@
     <th class="text">学科・学年</th><td>学科：<select name="course" aria-placeholder="学科を選択してください" required>
         <option value="1">システム系学科</option>
         <option value="2">ビジネス系学科</option>
-        <option value="3">システム系学科</option>
+        <option value="3">デザイン系学科</option>
     </select>
 学年：<select name="grade" aria-placeholder="学年を選択してください" required>
     <option value="1">1年</option>
@@ -44,8 +44,8 @@
 </select></td>
 </tr>
 <tr>
-    <th class="text">お得な情報、クーポン</th><td><label><input type="radio" name="coupon">受け取る
-    <input type="radio" name="coupon"> 受け取らない</label></td>
+    <th class="text">お得な情報、クーポン</th><td><label><input type="radio" name="coupon" value="1">受け取る
+    <input type="radio" name="coupon" value="2"> 受け取らない</label></td>
 </tr>
 <tr>
     <th>ご意見・ご要望<p>200文字以内でご記入ください。</p></th><td><textarea name="multiple" cols="50" rows="10" maxlength="200"></textarea></td>
