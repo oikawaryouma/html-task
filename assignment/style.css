@@ -1,0 +1,465 @@
+@charset "UTF-8";
+html {
+    background-image: url(img/ダウンロード.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.menu-content {
+    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+.menu-content h1{
+    font-size: 45px;
+    color: wheat;
+}
+.fadeIn{
+    animation-name:fadeInAnime;
+    animation-duration:1s;
+    animation-fill-mode:forwards;
+    opacity:0;
+    }
+    
+    @keyframes fadeInAnime{
+      from {
+        opacity: 0;
+      }
+    
+      to {
+        opacity: 1;
+      }
+    }
+     img{
+        width: 100%;
+        height: 100%;
+    }
+    .flex{
+        display: flex;
+    }
+   .title{
+    
+        font-size: 40px;
+        color: #f02db2;
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+     .id img{
+        text-align: center;
+        height: 60%;
+        width: 60%;
+    }
+    html{
+        font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+        transition: all 0.5s;
+    }
+     div{
+        text-align: center;
+    }
+    .id h1{margin-bottom: 70px;
+
+    }
+    .story img{
+        width: 30%;
+        width: 30%;
+        text-align: center;
+    }
+    .story p{
+        font-size: 30px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 9;
+        text-align: left;
+        margin: 20px 200px;
+    }
+    .h1{
+        font-size: 50px;
+        margin-bottom: 100px;
+    }
+    iframe{
+        margin-bottom: 100px;
+    }
+    .menu-content {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 80;
+        background-color: #fa36c9;
+    }
+    .menu-content ul {
+        padding: 70px 10px 0;
+    }
+    .menu-content ul li {
+        border-bottom: solid 1px #ffffff;
+        list-style: none;
+    }
+    .menu-content ul li a {
+        display: block;
+        width: 100%;
+        font-size: 30px;
+        box-sizing: border-box;
+        color:#ffffff;
+        text-decoration: none;
+        padding: 9px 15px 10px 0;
+        position: relative;
+    }
+    .menu-content ul li a::before {
+        content: "";
+        width: 7px;
+        height: 7px;
+        border-top: solid 2px #ffffff;
+        border-right: solid 2px #ffffff;
+        transform: rotate(45deg);
+        position: absolute;
+        right: 11px;
+        top: 16px;
+    }
+    #menu-btn-check:checked ~ .menu-content {
+        left: 0;
+    }
+    .menu-content {
+        width: 30%;
+        height: -50%;
+        position: fixed;
+        top: 0;
+        left: 100%;/*leftの値を変更してメニューを画面外へ*/
+        z-index: 80;
+        background-color: #3584bb;
+        transition: all 0.5s;
+    }
+    .menu-btn {
+        top: 10px;
+        right: 10px;
+        position: fixed;
+        display: flex;
+        height: 80px;
+        width: 80px;
+        justify-content: center;
+        align-items: center;
+        z-index: 90;
+        background-color: #3584bb;
+    }
+    .menu-btn span,
+    .menu-btn span:before,
+    .menu-btn span:after {
+        content: '';
+        display: block;
+        height: 3px;
+        width: 25px;
+        border-radius: 3px;
+        background-color: #ffffff;
+        position: absolute;
+    }
+    .menu-btn span:before {
+        bottom: 8px;
+    }
+    .menu-btn span:after {
+        top: 8px;
+    }
+    .side {
+        background-color:#9cf5c4;
+        width:25%;
+        height: 500px;
+        text-align:center;
+        margin-left:10px;
+      } 
+      
+      .content {
+        width:100%;
+        text-align:center;
+      }
+      
+      article {
+        display:flex;
+      }
+      .side{
+        margin-left: 30px;
+        text-align: left;
+      }
+      .side a:hover{
+        text-decoration: none;
+      }
+
+      .side a{
+        font-size: 20px;
+      }
+      .page-top {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        width: 100px;
+        height: 100px;
+        background-color: #000066;
+        cursor: pointer;
+        transition: opacity .3s ease;
+        z-index: 5;
+    }
+    .page-top:hover {
+        opacity: 0.5;
+    }
+    .page-top__arrow {
+        height: 15px;
+        width: 15px;
+        border-top: 2px solid #fff;
+        border-left: 2px solid #fff;
+        transform: translateY(3px) rotate(45deg);
+    }
+    a.btn_03 {
+        text-align: center;
+        font-size: 18px;
+        display: inline-flex;
+        text-decoration: none;
+        height: 40px;
+        margin: 10px;
+        padding: 1rem 5rem;
+        font-weight: bold;
+        border: 2px solid #fd2990;
+        color: #f759ca;
+        border-radius: 90vh;
+        transition: 0.5s;
+    }
+    a.btn_03:hover {
+        color: #fff;
+        background: #fd2990;
+    }
+    .item-list{
+        text-align: center;
+        padding: 10px 20px;
+    }
+    .a{
+        text-align: center;
+        padding-top: 8px;
+    }
+    .charset{
+        display: flex;
+    }
+    .charset img{
+        margin-top: 80px;
+        width: 55%;
+        height: 85%;
+    }
+    .syoukai p{
+        font-size: 20px;
+        text-align: left;
+    }
+    .label {
+        font-size: 48px;
+        text-align: left;
+        color: #fd2990;
+    }
+    .pink{
+        text-align: left;
+        color: #fd2990;
+    }
+    .syoukai{
+        background-color: #ffffff;
+    }
+    .charset2{
+        display: flex;
+    }
+    .charset2 img{
+        width: 55%;
+        height: 85%;
+    }
+    iframe{
+        text-align: left;
+    }
+    .img2{
+        background-color: antiquewhite;
+        text-align: right;
+        height: 30%;
+        width: 30%;
+    }
+    .flex2{
+        display: flex;
+        margin-left: 30px;
+        margin-right: 30px;
+        text-align: center;
+    }
+    .color{
+        background-color: #9cf5c4;
+    }
+    .title2{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    .content2{
+        text-align: center;
+    }
+    a.btn_02 {
+        text-align: center;
+        font-size: 18px;
+        display: inline-flex;
+        text-decoration: none;
+        height: 20px;
+        margin: 10px;
+        padding: 1rem 5rem;
+        font-weight: bold;
+        border: 2px solid #fd2990;
+        color: #f759ca;
+        border-radius: 90vh;
+        transition: 0.5s;
+    }
+    a.btn_02:hover {
+        color: #fff;
+        background: #fd2990;
+    }
+    a.btn_01 {
+        text-align: center;
+        font-size: 18px;
+        display: inline-flex;
+        text-decoration: none;
+        height: 20px;
+        margin: 10px;
+        padding: 1rem 5rem;
+        font-weight: bold;
+        border: 2px solid red;
+        color: #f61111;
+        border-radius: 90vh;
+        transition: 0.5s;
+    }
+    a.btn_01:hover {
+        color: #fff;
+        background: red;
+    }
+    a.btn_04 {
+        text-align: center;
+        font-size: 18px;
+        display: inline-flex;
+        text-decoration: none;
+        height: 20px;
+        margin: 10px;
+        padding: 1rem 5rem;
+        font-weight: bold;
+        border: 2px solid #9cf5c4;
+        color: aquamarine;
+        border-radius: 90vh;
+        transition: 0.5s;
+    }
+    a.btn_04:hover {
+        color: #fff;
+        background: aquamarine;
+    }
+    a.btn_05 {
+        text-align: center;
+        font-size: 18px;
+        display: inline-flex;
+        text-decoration: none;
+        height: 20px;
+        margin: 10px;
+        padding: 1rem 5rem;
+        font-weight: bold;
+        border: 2px solid #be08f5;
+        color: purple;
+        border-radius: 90vh;
+        transition: 0.5s;
+    }
+    a.btn_05:hover {
+        color: #fff;
+        background: purple;
+    }
+    a.btn_06 {
+        text-align: center;
+        font-size: 18px;
+        display: inline-flex;
+        text-decoration: none;
+        height: 20px;
+        margin: 10px;
+        padding: 1rem 5rem;
+        font-weight: bold;
+        border: 2px solid #41a8fc;
+        color: rgb(75, 156, 232);
+        border-radius: 90vh;
+        transition: 0.5s;
+    }
+    a.btn_06:hover {
+        color: #fff;
+        background: #41a8fc;
+    }
+    a.btn_07 {
+        text-align: center;
+        font-size: 18px;
+        display: inline-flex;
+        text-decoration: none;
+        height: 20px;
+        margin: 10px;
+        padding: 1rem 5rem;
+        font-weight: bold;
+        border: 2px solid #41a8fc;
+        color: rgb(75, 156, 232);
+        border-radius: 90vh;
+        transition: 0.5s;
+    }
+    a.btn_07:hover {
+        color: #fff;
+        background: #41a8fc;
+    }
+    a.btn_08 {
+        text-align: center;
+        font-size: 18px;
+        display: inline-flex;
+        text-decoration: none;
+        height: 20px;
+        margin: 10px;
+        padding: 1rem 5rem;
+        font-weight: bold;
+        border: 2px solid #725ef9;
+        color: rgb(142, 109, 239);
+        border-radius: 90vh;
+        transition: 0.5s;
+    }
+    a.btn_08:hover {
+        color: #fff;
+        background: #725ef9;
+    }
+    a.btn_09 {
+        text-align: center;
+        font-size: 18px;
+        display: inline-flex;
+        text-decoration: none;
+        height: 20px;
+        margin: 10px;
+        padding: 1rem 5rem;
+        font-weight: bold;
+        border: 2px solid #0a8bf5;
+        color: rgb(10, 118, 218);
+        border-radius: 90vh;
+        transition: 0.5s;
+    }
+    a.btn_09:hover {
+        color: #fff;
+        background: #0a8bf5;
+    }
+    a.btn_10 {
+        text-align: center;
+        font-size: 18px;
+        display: inline-flex;
+        text-decoration: none;
+        height: 20px;
+        margin: 10px;
+        padding: 1rem 5rem;
+        font-weight: bold;
+        border: 2px solid #fbff00;
+        color: rgb(229, 254, 39);
+        border-radius: 90vh;
+        transition: 0.5s;
+    }
+    a.btn_10:hover {
+        color: #fff;
+        background: #fbff00;
+    }
+    body{
+        width: 100%;
+        height: 100%;
+    }
+    .other{
+        text-align: center;
+    }
