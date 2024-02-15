@@ -463,3 +463,6 @@ html {
     .other{
         text-align: center;
     }
+    #menu-btn-check {
+        display: none;
+    }
